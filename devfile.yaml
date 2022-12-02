@@ -4,7 +4,7 @@ metadata:
 components:
   - name: nodejs
     container:
-      image: registry.redhat.io/devspaces/udi-rhel8:3.3
+      image: registry.redhat.io/devspaces/udi-rhel8@sha256:f2ea3a5c0ecdd48f973877305a57bcf6b0a9617cdbef4b37c600d5acfe12b22a
       env:
       # The values below are used to set up the environment for running the application
         - name: SECRET
